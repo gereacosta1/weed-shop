@@ -272,24 +272,25 @@ export default function ProductDetailPage({ product }: ProductDetailPageProps) {
               </div>
 
               <div className="space-y-3">
-                <Button
-                  onClick={handleBuyNow}
-                  disabled={isOutOfStock || isRestricted}
-                  size="lg"
-                  className="w-full text-lg py-6"
-                >
-                  {isOutOfStock ? 'Out of Stock' : 'Buy Now'}
-                </Button>
-                <Button
-                  onClick={handleAddToCart}
-                  disabled={isOutOfStock || isRestricted}
-                  variant="outline"
-                  size="lg"
-                  className="w-full text-lg py-6"
-                >
-                  <ShoppingCart className="w-5 h-5 mr-2" />
-                  Add to Cart
-                </Button>
+               <Button
+                    onClick={handleBuyNow}
+                    disabled={Boolean(isOutOfStock || isRestricted)}
+                    size="lg"
+                    className="w-full text-lg py-6"
+                  >
+                    {isOutOfStock ? 'Out of Stock' : 'Buy Now'}
+                  </Button>
+
+                  <Button
+                    onClick={handleAddToCart}
+                    disabled={Boolean(isOutOfStock || isRestricted)}
+                    variant="outline"
+                    size="lg"
+                    className="w-full text-lg py-6"
+                  >
+                    <ShoppingCart className="w-5 h-5 mr-2" />
+                    Add to Cart
+                  </Button>
               </div>
             </div>
 
