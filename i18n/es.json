@@ -1,0 +1,48 @@
+{
+  "common": {
+    "loading": "Cargando...",
+    "error": "Error",
+    "success": "Éxito",
+    "cancel": "Cancelar",
+    "confirm": "Confirmar",
+    "close": "Cerrar",
+    "continue": "Continuar",
+    "back": "Atrás",
+    "next": "Siguiente",
+    "save": "Guardar",
+    "edit": "Editar",
+    "delete": "Eliminar",
+    "search": "Buscar",
+    "filter": "Filtrar",
+    "sort": "Ordenar",
+    "clear": "Limpiar",
+    "apply": "Aplicar",
+    "reset": "Restablecer"
+  },
+  "nav": {
+    "shop": "Tienda",
+    "about": "Acerca de",
+    "faq": "Preguntas Frecuentes",
+    "contact": "Contacto",
+    "cart": "Carrito",
+    "account": "Cuenta"
+  },
+  "home": {
+    "hero_title": "Cannabis Premium Entregado",
+    "hero_subtitle": "Productos de alta calidad probados en laboratorio, entregados discretamente a tu puerta",
+    "shop_now": "Comprar Ahora",
+    "featured_products": "Productos Destacados",
+    "new_arrivals": "Novedades",
+    "shop_by_category": "Comprar por Categoría",
+    "free_delivery": "Entrega local gratuita en pedidos superiores a $75",
+    "why_choose_us": "¿Por Qué Elegirnos?",
+    "lab_tested": "Probado en Laboratorio",
+    "lab_tested_desc": "Cada producto viene con resultados COA verificados",
+    "discreet_shipping": "Envío Discreto",
+    "discreet_shipping_desc": "Empaque privado sin logos de cannabis",
+    "secure_payments": "Pagos Seguros",
+    "secure_payments_desc": "Seguridad de pagos líder en la industria",
+    "fast_delivery": "Entrega Rápida",
+    "fast_delivery_desc": "Entrega el mismo día en la mayoría de las áreas"
+  }
+}
