@@ -452,22 +452,22 @@ export default function CheckoutPage() {
                   </Card>
                   
                   {/* Legal Notices */}
-                  <Card className="p-6">
-                    <div className="space-y-4 text-sm">
-                      <div className="flex items-start gap-3">
-                        <Checkbox id="ageVerification" required />
-                        <Label htmlFor="ageVerification" className="text-sm">
-                          I confirm that I am 21 years of age or older and legally allowed to purchase these products in my state.
-                        </Label>
+                    <Card className="p-6">
+                      <div className="space-y-4 text-sm">
+                        <div className="flex items-start gap-3">
+                          <Checkbox id="ageVerification" required />
+                          <Label htmlFor="ageVerification" className="text-sm">
+                            I confirm that I am 21 years of age or older and legally allowed to purchase these products in my state.
+                          </Label>
+                        </div>
+                        <div className="flex items-start gap-3">
+                          <Checkbox id="terms" required />
+                          <Label htmlFor="terms" className="text-sm">
+                            I agree to the <Link href="/legal/terms" className="text-green-600 hover:underline">Terms of Service</Link> and <Link href="/legal/privacy" className="text-green-600 hover:underline">Privacy Policy</Link>.
+                          </Label>
+                        </div>
                       </div>
-                      <div className="flex items-start gap-3">
-                        <Checkbox id="terms" required />
-                        <Label htmlFor="terms" className="text-sm">
-                          I agree to the <Link href="/legal/terms" className="text-green-600 hover:underline">Terms of Service</Link> and <Link href="/legal/privacy" className=\"text-green-600 hover:underline">Privacy Policy</Link>.
-                        </Label>
-                      </div>
-                    </div>
-                  </Card>
+                    </Card>
                 </div>
               )}
 
